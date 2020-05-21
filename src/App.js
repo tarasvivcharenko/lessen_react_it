@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
 import './App.css';
-import Techno from "./Techno";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./componets/Header";
+import Navbar from "./componets/Navbar";
+import Profile from "./componets/Profile";
+
 
 class App extends Component {
   render() {
     return (
-        <div>
+        <div className='app-wrap'>
           <Header />
-          <Techno />
-          <Footer />
+          <Navbar />
+          <Profile />
         </div>
     );
   }
